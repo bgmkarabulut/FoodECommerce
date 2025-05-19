@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FoodECommerce</title>
+
+    <!-- Sadece biri: CDN bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FoodECommerce.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <header>
+        
+       <partial name="_NavbarPartial" />
+
+        @if (ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
+         ViewContext.RouteData.Values["action"]?.ToString() == "Index")
+    {
+        <partial name="_HeroPartial" />
+    }
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <partial name="_FooterPartial" /> 
+    
+ 
+<!-- jQuery kaldırıldı çünkü Bootstrap 5 gerekmez -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

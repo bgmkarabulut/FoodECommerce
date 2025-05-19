@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<div class="container mt-5" style="max-width: 500px;">
+    <h2 class="mb-4 text-center">Giriş Yap</h2>
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+    <form method="post" action="/Account/Login">
+        <div class="mb-3">
+            <label for="email" class="form-label">E-Posta</label>
+            <input type="email" class="form-control" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Şifre</label>
+            <input type="password" class="form-control" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-danger w-100 rounded-pill">Giriş Yap</button>
+    </form>
+    <div class="text-center mt-3">
+        Hesabınız yok mu? <a href="/Account/Register">Üye Ol</a>
+    </div>
+</div>

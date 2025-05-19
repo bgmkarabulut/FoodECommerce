@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FoodECommerce.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FoodECommerce.xx9dyy4osl.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\burgers.png",
+      "PackagePath": "staticwebassets\\images\\categories\\burgers.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\içecekler.png",
+      "PackagePath": "staticwebassets\\images\\categories\\içecekler.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\kids.png",
+      "PackagePath": "staticwebassets\\images\\categories\\kids.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\menüler.png",
+      "PackagePath": "staticwebassets\\images\\categories\\menüler.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\soslar.png",
+      "PackagePath": "staticwebassets\\images\\categories\\soslar.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\categories\\tatlılar.png",
+      "PackagePath": "staticwebassets\\images\\categories\\tatlılar.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\dondurmadeal.png",
+      "PackagePath": "staticwebassets\\images\\deals\\dondurmadeal.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\dörtlüdeal.png",
+      "PackagePath": "staticwebassets\\images\\deals\\dörtlüdeal.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\ikilideal.png",
+      "PackagePath": "staticwebassets\\images\\deals\\ikilideal.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\kralikili.png",
+      "PackagePath": "staticwebassets\\images\\deals\\kralikili.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\rodeodeal.png",
+      "PackagePath": "staticwebassets\\images\\deals\\rodeodeal.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\deals\\üçlüwhopper.png",
+      "PackagePath": "staticwebassets\\images\\deals\\üçlüwhopper.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\hero_burger.jpg",
+      "PackagePath": "staticwebassets\\images\\hero_burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\ballımustrad.png",
+      "PackagePath": "staticwebassets\\images\\products\\ballımustrad.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\chickenroyalemenü.png",
+      "PackagePath": "staticwebassets\\images\\products\\chickenroyalemenü.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\cocacola.png",
+      "PackagePath": "staticwebassets\\images\\products\\cocacola.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\cookie.png",
+      "PackagePath": "staticwebassets\\images\\products\\cookie.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\fanta.png",
+      "PackagePath": "staticwebassets\\images\\products\\fanta.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\ketçap.png",
+      "PackagePath": "staticwebassets\\images\\products\\ketçap.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\kids2.png",
+      "PackagePath": "staticwebassets\\images\\products\\kids2.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\kids3.png",
+      "PackagePath": "staticwebassets\\images\\products\\kids3.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\külah.png",
+      "PackagePath": "staticwebassets\\images\\products\\külah.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\mayonez.png",
+      "PackagePath": "staticwebassets\\images\\products\\mayonez.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\ranch.png",
+      "PackagePath": "staticwebassets\\images\\products\\ranch.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\rodeo.png",
+      "PackagePath": "staticwebassets\\images\\products\\rodeo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\spicy.png",
+      "PackagePath": "staticwebassets\\images\\products\\spicy.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\spicymenü.png",
+      "PackagePath": "staticwebassets\\images\\products\\spicymenü.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\sundae.png",
+      "PackagePath": "staticwebassets\\images\\products\\sundae.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\sıcakçiko.png",
+      "PackagePath": "staticwebassets\\images\\products\\sıcakçiko.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\tavukburger.png",
+      "PackagePath": "staticwebassets\\images\\products\\tavukburger.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\tavukburgermenü.png",
+      "PackagePath": "staticwebassets\\images\\products\\tavukburgermenü.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\tavuklu.png",
+      "PackagePath": "staticwebassets\\images\\products\\tavuklu.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\images\\products\\whopper.png",
+      "PackagePath": "staticwebassets\\images\\products\\whopper.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FoodECommerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FoodECommerce.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FoodECommerce.props",
+      "PackagePath": "build\\FoodECommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FoodECommerce.props",
+      "PackagePath": "buildMultiTargeting\\FoodECommerce.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FoodECommerce.props",
+      "PackagePath": "buildTransitive\\FoodECommerce.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

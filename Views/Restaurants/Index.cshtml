@@ -1,0 +1,64 @@
+@model List<FoodECommerce.Models.Restaurant>
+
+@{
+    ViewData["Title"] = "Restaurants";
+    var cities = Model.Select(r => r.City).Distinct().ToList();
+}
+
+<h2 class="mt-4 mb-3 text-center">Restaurant Branches</h2>
+
+<!-- Harita -->
+<div id="map" style="height: 400px;" class="mb-4"></div>
+
+<!-- Şehir kutuları -->
+<div class="container mb-5">
+    <div class="row">
+        @foreach (var city in cities)
+        {
+            <div class="col-md-3 mb-3">
+                <button class="btn btn-outline-primary w-100 city-btn" data-city="@city">@city</button>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    const restaurantData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model));
+
+    var map = L.map('map').setView([39.9208, 32.8541], 6); // Türkiye merkezli başlat
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18
+    }).addTo(map);
+
+    function addMarkers(restaurants) {
+        map.eachLayer(function (layer) {
+            if (layer instanceof L.Marker) {
+                map.removeLayer(layer);
+            }
+        });
+
+        restaurants.forEach(r => {
+            L.marker([r.latitude, r.longitude])
+                .addTo(map)
+                .bindPopup(`<strong>${r.name}</strong><br>Rating: ${r.rating}`);
+        });
+
+        if (restaurants.length > 0) {
+            map.setView([restaurants[0].latitude, restaurants[0].longitude], 12);
+        }
+    }
+
+    document.querySelectorAll('.city-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const city = btn.getAttribute('data-city');
+            const filtered = restaurantData.filter(r => r.city === city);
+            addMarkers(filtered);
+        });
+    });
+
+    // Tüm restoranları başta göster
+    addMarkers(restaurantData);
+</script>
+}

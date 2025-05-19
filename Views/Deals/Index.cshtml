@@ -1,0 +1,19 @@
+@model List<FoodECommerce.Models.Deal>
+
+<h2 class="my-4 text-center">Deals</h2>
+<div class="container">
+    <div class="row">
+        @foreach (var deal in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="@deal.ImageUrl" class="card-img-top" alt="@deal.Title" />
+                    <div class="card-body">
+                        <h5 class="card-title">@deal.Title</h5>
+                        <p class="card-text">@deal.Description</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

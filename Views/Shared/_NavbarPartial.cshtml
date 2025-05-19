@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-3">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand fs-3 fw-bold text-danger" href="/">
+            <img src="~/images/logo.png" alt="" height="40" class="me-2">
+            FoodExpress
+        </a>
+
+        <!-- Toggle button (mobile) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="/">Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="/Restaurants">Restoranlar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold text-dark" href="/Deals">Kampanyalar</a>
+                </li>
+            </ul>
+
+            <!-- Sağ taraf: kullanıcı ve sepet -->
+            @{
+    var fullName = Context.Session.GetString("FullName");
+}
+
+<ul class="navbar-nav ms-auto gap-3 align-items-center">
+    @if (string.IsNullOrEmpty(fullName))
+    {
+        <li class="nav-item">
+            <a class="btn btn-outline-danger rounded-pill px-4" href="/Account/Login">Giriş Yap</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-danger rounded-pill px-4" href="/Account/Register">Üye Ol</a>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <span class="fw-semibold text-dark">Merhaba, @fullName</span>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-outline-danger rounded-pill px-4" href="/Account/Logout">Çıkış Yap</a>
+        </li>
+    }
+    <li class="nav-item">
+        <a class="position-relative" href="/Cart">
+            <i class="bi bi-bag-fill fs-4 text-danger"></i>
+        </a>
+    </li>
+</ul>
+
+        </div>
+    </div>
+</nav>

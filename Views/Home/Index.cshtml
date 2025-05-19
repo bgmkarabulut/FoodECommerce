@@ -1,0 +1,27 @@
+﻿@model FoodECommerce.Models.ViewModels.HomePageViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h2>Categories</h2>
+<div class="container mt-5">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-4">
+        @foreach (var category in Model.Categories.Take(6))
+        {
+            <a href="@Url.Action("ProductsByCategory", "Category", new { id = category.Id })">
+            <div class="col">
+                <div class="card h-100 text-center shadow-sm">
+                    <img src="/images/categories/@category.ImageName" class="card-img-top mx-auto mt-3"
+                         style="width: 100px; height: 100px; object-fit: contain;" alt="@category.Name" />
+                    <div class="card-body">
+                        <h6 class="card-title">@category.Name</h6>
+                    </div>
+                </div>
+                
+            </div>
+            </a>
+        }
+    </div>
+</div>
+

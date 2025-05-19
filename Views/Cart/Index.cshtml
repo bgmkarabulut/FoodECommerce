@@ -1,0 +1,38 @@
+@model Cart
+
+<div class="container py-5">
+    <h2 class="mb-4">Sepetim</h2>
+
+    @if (Model?.CartItems?.Count == 0)
+    {
+        <div class="alert alert-info">Sepetiniz boş.</div>
+    }
+    else
+    {
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Ürün</th>
+                    <th>Adet</th>
+                    <th>Birim Fiyat</th>
+                    <th>Toplam</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Product.Price ₺</td>
+                        <td>@(item.Product.Price * item.Quantity) ₺</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h4 class="text-end">
+            Toplam: @Model.CartItems.Sum(ci => ci.Product.Price * ci.Quantity) ₺
+        </h4>
+    }
+</div>
