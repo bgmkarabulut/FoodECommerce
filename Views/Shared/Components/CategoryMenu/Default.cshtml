@@ -1,0 +1,12 @@
+@model IEnumerable<FoodECommerce.Models.Category>
+
+<div class="bg-light border-top py-2 shadow-sm">
+    <div class="container d-flex flex-wrap justify-content-center gap-3">
+        @foreach (var category in Model)
+        {
+            <a class="btn btn-outline-secondary btn-sm" href="@Url.Action("ProductsByCategory", "Category", new { id = category.Id })">
+                @category.Name
+            </a>
+        }
+    </div>
+</div>

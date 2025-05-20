@@ -26,8 +26,8 @@ public class CartController : Controller
         var cart = _context.Carts
             .Include(c => c.CartItems)
             .FirstOrDefault(c => c.UserId == user.Id);
-        
-        
+
+
 
         if (cart == null)
         {
@@ -48,7 +48,7 @@ public class CartController : Controller
             if (product == null)
             {
                 TempData["Error"] = "Ürün bulunamadı.";
-                return RedirectToAction("Index", "Home"); 
+                return RedirectToAction("Index", "Home");
             }
 
             cart.CartItems.Add(new CartItem
@@ -142,4 +142,63 @@ public class CartController : Controller
         return RedirectToAction("Index");
     }
     
+    [HttpGet]
+public IActionResult Checkout()
+{
+    return View();
+}
+
+[HttpPost]
+public async Task<IActionResult> Checkout(CheckoutViewModel model)
+{
+    if (!ModelState.IsValid)
+        return View(model);
+
+    var user = await _userManager.GetUserAsync(User);
+    if (user == null)
+        return RedirectToAction("Login", "Account");
+
+    // Kullanıcının sepetini al
+    var cart = await _context.Carts
+        .Include(c => c.CartItems)
+        .ThenInclude(ci => ci.Product)
+        .FirstOrDefaultAsync(c => c.UserId == user.Id);
+
+    if (cart == null || !cart.CartItems.Any())
+    {
+        ModelState.AddModelError("", "Sepetiniz boş.");
+        return View(model);
+    }
+
+    // Sipariş oluştur
+   var order = new Order
+{
+    UserId = user.Id,
+    OrderDate = DateTime.UtcNow,  
+    TotalAmount = cart.CartItems.Sum(ci => ci.Product.Price * ci.Quantity),
+    OrderItems = cart.CartItems.Select(ci => new OrderItem
+    {
+        ProductId = ci.ProductId,
+        Quantity = ci.Quantity,
+        Price = ci.Product.Price
+    }).ToList()
+};
+
+    // Siparişi veritabanına kaydet
+    _context.Orders.Add(order);
+
+    // Sepeti temizle
+    _context.CartItems.RemoveRange(cart.CartItems);
+
+    await _context.SaveChangesAsync();
+
+    TempData["SuccessMessage"] = "Siparişiniz başarıyla alındı! Teşekkür ederiz.";
+    return RedirectToAction("CheckoutSuccess");
+}
+
+public IActionResult CheckoutSuccess()
+{
+    return View();
+}
+
 }

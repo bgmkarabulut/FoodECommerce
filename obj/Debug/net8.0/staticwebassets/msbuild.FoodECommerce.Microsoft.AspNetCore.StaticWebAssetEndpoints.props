@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 16:06:43 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:33:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FoodECommerce/css/site.qw4nikimqx.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qw4nikimqx"},{"Name":"integrity","Value":"sha256-mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc="},{"Name":"label","Value":"_content/FoodECommerce/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 16:06:43 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1588"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 20 May 2025 17:33:23 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FoodECommerce/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

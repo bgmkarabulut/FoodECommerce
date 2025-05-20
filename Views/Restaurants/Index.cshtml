@@ -32,36 +32,33 @@
         maxZoom: 18
     }).addTo(map);
 
-   function addMarkers(restaurants) {
-    // Eski marker'ları temizle
-    map.eachLayer(function (layer) {
-        if (layer instanceof L.Marker) {
-            map.removeLayer(layer);
-        }
-    });
+    let markers = [];
 
-    restaurants.forEach(r => {
-        const lat = parseFloat(r.latitude);
-        const lng = parseFloat(r.longitude);
+    function addMarkers(restaurants) {
+        // Eski marker'ları kaldır
+        markers.forEach(marker => map.removeLayer(marker));
+        markers = [];
 
-        if (!isNaN(lat) && !isNaN(lng)) {
-            L.marker([lat, lng])
-                .addTo(map)
-                .bindPopup(`<strong>${r.name}</strong><br>Rating: ${r.rating}`);
-        }
-    });
+        restaurants.forEach(r => {
+            const lat = parseFloat(r.latitude);
+            const lng = parseFloat(r.longitude);
 
-    if (restaurants.length > 0) {
-        const lat = parseFloat(restaurants[0].latitude);
-        const lng = parseFloat(restaurants[0].longitude);
-        if (!isNaN(lat) && !isNaN(lng)) {
-            map.setView([lat, lng], 12);
+            if (!isNaN(lat) && !isNaN(lng)) {
+                const marker = L.marker([lat, lng])
+                    .addTo(map)
+                    .bindPopup(`<strong>${r.name}</strong><br>Rating: ${r.rating}`);
+                markers.push(marker);
+            }
+        });
+
+        if (restaurants.length > 0) {
+            const lat = parseFloat(restaurants[0].latitude);
+            const lng = parseFloat(restaurants[0].longitude);
+            if (!isNaN(lat) && !isNaN(lng)) {
+                map.setView([lat, lng], 12);
+            }
         }
     }
-}
-
-
-    
 
     document.querySelectorAll('.city-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -74,4 +71,5 @@
     // Tüm restoranları başta göster
     addMarkers(restaurantData);
 </script>
+
 }

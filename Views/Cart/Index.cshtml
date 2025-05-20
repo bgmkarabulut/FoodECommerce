@@ -1,51 +1,59 @@
 @model Cart
 
 <div class="container py-5">
-    <h2 class="mb-4">Sepetim</h2>
+    <h2 class="mb-4text-center">🛒 Sepetim</h2>
 
     @if (Model?.CartItems?.Count == 0)
     {
-        <div class="alert alert-info">Sepetiniz boş.</div>
+        <div class="alert alert-info text-center">Sepetiniz boş.</div>
     }
     else
     {
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th>Ürün</th>
-                    <th>Adet</th>
-                    <th>Birim Fiyat</th>
-                    <th>Toplam</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model.CartItems)
-                {
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-dark">
                     <tr>
-                        <td>@item.Product.Name</td>
-                        <td>@item.Quantity</td>
-                        <td>@item.Product.Price ₺</td>
-                        <td>@(item.Product.Price * item.Quantity) ₺</td>
-                        <td>
-    <form asp-action="Remove" method="post">
-        <input type="hidden" name="itemId" value="@item.Id" />
-        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
-    </form>
-</td>
-
+                        <th>Ürün</th>
+                        <th>Adet</th>
+                        <th>Birim Fiyat</th>
+                        <th>Toplam</th>
+                        <th></th>
                     </tr>
-                }
-            </tbody>
-        </table>
-        <form asp-action="ClearCart" method="post" class="text-end">
-    <button type="submit" class="btn btn-warning">Sepeti Boşalt</button>
-</form>
-        <form asp-action="Checkout" method="post" class="text-end">
-            <button type="submit" class="btn btn-success">Ödeme Yap</button>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CartItems)
+                    {
+                        <tr>
+                            <td>@item.Product.Name</td>
+                            <td>@item.Quantity</td>
+                            <td>₺ @item.Product.Price</td>
+                            <td><strong>₺ @(item.Product.Price * item.Quantity)</strong></td>
+                            <td>
+                                <form asp-action="Remove" method="post">
+                                    <input type="hidden" name="itemId" value="@item.Id" />
+                                    <button type="submit" class="btn btn-outline-danger btn-sm">Sil</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center mt-4">
+            <form asp-action="ClearCart" method="post">
+                <button type="submit" class="btn btn-warning">Sepeti Boşalt</button>
             </form>
 
-        <h4 class="text-end">
-            Toplam: @Model.CartItems.Sum(ci => ci.Product.Price * ci.Quantity) ₺
-        </h4>
+            <h4 class="text-end mb-0">
+                Toplam: <span class="text-success fw-bold fs-4">
+                    ₺ @Model.CartItems.Sum(ci => ci.Product.Price * ci.Quantity)
+                </span>
+            </h4>
+
+            <form asp-action="Checkout" method="post">
+                <button type="submit" class="btn btn-success">Ödeme Yap</button>
+            </form>
+        </div>
     }
 </div>

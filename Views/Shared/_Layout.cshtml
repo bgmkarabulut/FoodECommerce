@@ -18,6 +18,7 @@
     <header>
         
        <partial name="_NavbarPartial" />
+       @await Component.InvokeAsync("CategoryMenu")
 
         @if (ViewContext.RouteData.Values["controller"]?.ToString() == "Home" &&
          ViewContext.RouteData.Values["action"]?.ToString() == "Index")
