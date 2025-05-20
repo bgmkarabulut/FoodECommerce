@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+KaZVitxi0tZIBXEF2UzQ9n/CpHgBhNoam7FjPKBxig=",
+  "Hash": "AUT+58gAEcoA4J/dYfwBJ1ENlH60YmH+Tq5NJ7Qm05g=",
   "Source": "FoodECommerce",
   "BasePath": "_content/FoodECommerce",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xxf6f0auzx",
-      "Integrity": "y9oBHhVmqC3sPuhmM0WRbDphS8sxt/BtsBTwzXqMjMc=",
+      "Fingerprint": "qw4nikimqx",
+      "Integrity": "mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2108,7 +2108,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1552"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -2116,11 +2116,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y9oBHhVmqC3sPuhmM0WRbDphS8sxt/BtsBTwzXqMjMc=\""
+          "Value": "\"mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 20:10:56 GMT"
+          "Value": "Tue, 20 May 2025 16:06:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2130,12 +2130,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y9oBHhVmqC3sPuhmM0WRbDphS8sxt/BtsBTwzXqMjMc="
+          "Value": "sha256-mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc="
         }
       ]
     },
     {
-      "Route": "css/site.xxf6f0auzx.css",
+      "Route": "css/site.qw4nikimqx.css",
       "AssetFile": "C:\\Users\\LENOVO\\Desktop\\FoodECommerce\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2145,7 +2145,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1552"
+          "Value": "1588"
         },
         {
           "Name": "Content-Type",
@@ -2153,11 +2153,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y9oBHhVmqC3sPuhmM0WRbDphS8sxt/BtsBTwzXqMjMc=\""
+          "Value": "\"mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 20:10:56 GMT"
+          "Value": "Tue, 20 May 2025 16:06:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2167,7 +2167,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xxf6f0auzx"
+          "Value": "qw4nikimqx"
         },
         {
           "Name": "label",
@@ -2175,7 +2175,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y9oBHhVmqC3sPuhmM0WRbDphS8sxt/BtsBTwzXqMjMc="
+          "Value": "sha256-mjrpyQMKRA4CbNXqk3owFMkWqeWbGeJBizjGvcfunwc="
         }
       ]
     },

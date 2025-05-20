@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using FoodECommerce.Data;
-using FoodECommerce.Models;
-using FoodECommerce.Data;
+
 
 namespace FoodECommerce.Controllers
 {

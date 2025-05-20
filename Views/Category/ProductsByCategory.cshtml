@@ -9,11 +9,10 @@
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
     @foreach (var product in Model.Products)
     {
-        <div class="col">
-            <div class="card h-100 shadow-sm">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 ">
                 <img src="/@product.ImageUrl"
-                     class="card-img-top img-fluid"
-                     style="height: 200px; object-fit: cover;"
+                     class="card-img-top "
                      alt="@product.Name" />
 
                 <div class="card-body text-center d-flex flex-column justify-content-between">

@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 768px) {
@@ -16,13 +17,11 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+html,
 body {
-  margin-bottom: 60px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .form-floating > .form-control-plaintext::placeholder,
@@ -83,4 +82,8 @@ body {
   .product-card img {
     height: 100px;
   }
+}
+
+footer {
+  margin-top: auto;
 }

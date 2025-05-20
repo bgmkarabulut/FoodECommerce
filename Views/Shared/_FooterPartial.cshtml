@@ -1,6 +1,19 @@
-<footer class="border-top footer text-muted mt-4">
+<footer class="text-white bg-danger py-4 mt-4 w-100 ">
     <div class="container text-center">
-        &copy; @DateTime.Now.Year - FoodECommerce - 
-        <a asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="mb-3">
+            <a href="mailto:info@foodecommerce.com" class="text-white me-3">
+                <i class="fa fa-envelope"></i> info@foodexpress.com
+            </a>
+         
+        </div>
+        <div class="mb-3">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            &copy; @DateTime.Now.Year - FoodECommerce - 
+            <a asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-underline">Privacy</a>
+        </div>
     </div>
 </footer>

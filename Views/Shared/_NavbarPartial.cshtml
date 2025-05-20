@@ -1,3 +1,7 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 <nav class="navbar navbar-expand-lg bg-white shadow-sm px-4 py-3">
     <div class="container-fluid">
         <!-- Logo -->
@@ -27,36 +31,41 @@
             </ul>
 
             <!-- Sağ taraf: kullanıcı ve sepet -->
-            @{
-    var fullName = Context.Session.GetString("FullName");
-}
+            <ul class="navbar-nav ms-auto gap-3 align-items-center">
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    var user = await UserManager.GetUserAsync(User);
+                    <li class="nav-item">
+                        <span class="fw-semibold text-dark">Merhaba, @user.FullName</span>
+                    </li>
+                    <li class="nav-item">
+                        <form method="post" asp-controller="Account" asp-action="Logout" asp-antiforgery="true" style="display:inline">
+                            <button class="btn btn-outline-danger rounded-pill px-4" type="submit">Çıkış Yap</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Cart" asp-action="Index">
+                        <i class="fa fa-shopping-cart"></i> Sepet
+                         <span class="badge bg-primary">@ViewBag.CartCount</span>
+                    </a>
+                    </li>
 
-<ul class="navbar-nav ms-auto gap-3 align-items-center">
-    @if (string.IsNullOrEmpty(fullName))
-    {
-        <li class="nav-item">
-            <a class="btn btn-outline-danger rounded-pill px-4" href="/Account/Login">Giriş Yap</a>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-danger rounded-pill px-4" href="/Account/Register">Üye Ol</a>
-        </li>
-    }
-    else
-    {
-        <li class="nav-item">
-            <span class="fw-semibold text-dark">Merhaba, @fullName</span>
-        </li>
-        <li class="nav-item">
-            <a class="btn btn-outline-danger rounded-pill px-4" href="/Account/Logout">Çıkış Yap</a>
-        </li>
-    }
-    <li class="nav-item">
-        <a class="position-relative" href="/Cart">
-            <i class="bi bi-bag-fill fs-4 text-danger"></i>
-        </a>
-    </li>
-</ul>
-
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="btn btn-outline-danger rounded-pill px-4" asp-controller="Account" asp-action="Login">Giriş Yap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger rounded-pill px-4" asp-controller="Account" asp-action="Register">Üye Ol</a>
+                    </li>
+                }
+                <li class="nav-item">
+                    <a class="position-relative" href="/Cart">
+                        <i class="bi bi-bag-fill fs-4 text-danger"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>

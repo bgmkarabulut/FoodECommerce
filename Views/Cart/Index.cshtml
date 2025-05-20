@@ -26,10 +26,23 @@
                         <td>@item.Quantity</td>
                         <td>@item.Product.Price ₺</td>
                         <td>@(item.Product.Price * item.Quantity) ₺</td>
+                        <td>
+    <form asp-action="Remove" method="post">
+        <input type="hidden" name="itemId" value="@item.Id" />
+        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+    </form>
+</td>
+
                     </tr>
                 }
             </tbody>
         </table>
+        <form asp-action="ClearCart" method="post" class="text-end">
+    <button type="submit" class="btn btn-warning">Sepeti Boşalt</button>
+</form>
+        <form asp-action="Checkout" method="post" class="text-end">
+            <button type="submit" class="btn btn-success">Ödeme Yap</button>
+            </form>
 
         <h4 class="text-end">
             Toplam: @Model.CartItems.Sum(ci => ci.Product.Price * ci.Quantity) ₺

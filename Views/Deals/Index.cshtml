@@ -11,6 +11,14 @@
                     <div class="card-body">
                         <h5 class="card-title">@deal.Title</h5>
                         <p class="card-text">@deal.Description</p>
+
+                         <div class="mt-auto d-flex justify-content-around"></div>
+                        <a class="btn btn-outline-primary btn-sm" asp-controller="Deals" asp-action="Details" asp-route-id="@deal.Id">
+                            Detaylar
+                        </a>
+
+                      
+                    
                     </div>
                 </div>
             </div>

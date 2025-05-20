@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using FoodECommerce.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace FoodECommerce.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
@@ -13,7 +15,7 @@ namespace FoodECommerce.Data
         public DbSet<Deal> Deals { get; set; }
 
         public object Restaurant { get; internal set; }
-        public DbSet<User> Users { get; set; } // Assuming you have a User model
+       
         public DbSet<Cart> Carts { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
 
